@@ -2,7 +2,7 @@
     "access-log-file": null,
     "algo": "cryptonight",
     "api": {
-        "port": 1234,
+        "port": 80,
         "access-token": null,
         "worker-id": null,
         "ipv6": false,
