@@ -1,0 +1,35 @@
+{
+    "access-log-file": null,
+    "algo": "cryptonight",
+    "api": {
+        "port": 1234,
+        "access-token": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": false
+    },
+    "background": false,
+    "bind": [
+        "0.0.0.0:3333"
+    ],
+    "colors": true,
+    "donate-level": 0,
+    "log-file": null,
+    "mode": "nicehash",
+    "pools": [
+        {
+            "url": "pool.supportxmr.com:5555",
+            "user": "457Dyo4wXur4BfT94zctSeaNP7X5Z4z9gc6u5NRwURe8WHojodSy9LyPgiPsZYBu9dKbG66P6t7PU2SzmmCyCAMe6w6ypMn",
+            "pass": "mineful-proxy",
+            "keepalive": true,
+            "variant": -1,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "syslog": false,
+    "verbose": false,
+    "workers": true
+}
